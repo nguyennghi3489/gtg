@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: var(--max-width);
+    padding: var(--paddingMD);
+    background-color: var(--black);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: var(--paddingXXL);
+    align-items: center;
+    color: var(--white);
+}
