@@ -8,6 +8,7 @@ import { OurServices } from "@/components/our-services";
 import { ExpertSolution } from "@/components/expert-solution";
 import { Feedback } from "@/components/feedback";
 import { ArticleVsUpdates } from "@/components/article-updates";
+import { Footer } from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,6 +34,7 @@ export default function Home() {
                 <ExpertSolution />
                 <Feedback />
                 <ArticleVsUpdates />
+                <Footer />
             </main>
         </>
     );
