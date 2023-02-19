@@ -1,0 +1,27 @@
+.container {
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: 180px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(
+        180deg,
+        rgba(3, 43, 76, 0) 0%,
+        rgba(3, 32, 76, 1) 100%
+    );
+}
+
+.text {
+    font-size: 70px;
+    color: var(--white);
+    width: var(--max-width-for-content);
+    padding: var(--paddingXXL);
+    text-align: center;
+}

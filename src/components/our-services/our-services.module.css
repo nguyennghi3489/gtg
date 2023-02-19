@@ -1,0 +1,34 @@
+.container {
+    padding: var(--paddingMD);
+}
+.serviceList {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--paddingMD);
+}
+
+.service {
+    width: calc(100% / 3);
+}
+.headerTitle {
+    font-size: 40px;
+    color: var(--white);
+    margin-bottom: var(--paddingXXL);
+}
+
+.title {
+    font-size: 30px;
+    color: var(--white);
+    margin-top: var(--paddingMD);
+}
+
+.content {
+    font-size: 20px;
+    color: var(--gray);
+    margin-top: var(--paddingMD);
+    line-height: 30px;
+}
+
+.image {
+    width: 100%;
+}
