@@ -1,5 +1,6 @@
 .container {
     padding: var(--paddingMD);
+    margin-bottom: 150px;
 }
 .serviceList {
     display: flex;

@@ -9,7 +9,7 @@ export const Poster = () => (
                 Facilitating Seamless and Effortless Banking Services Across
                 Borders.
             </h2>
-            <Button ghost>View More</Button>
+            <Button ghost>VIEW MORE</Button>
         </div>
     </div>
 );

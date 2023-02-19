@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 import { NavBar } from "@/components/nav-bar";
 import { Poster } from "@/components/poster";
 import { OurServices } from "@/components/our-services";
+import { ExpertSolution } from "@/components/expert-solution";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +28,7 @@ export default function Home() {
                 <NavBar />
                 <Poster />
                 <OurServices />
+                <ExpertSolution />
             </main>
         </>
     );

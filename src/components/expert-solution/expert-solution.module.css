@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark);
+    align-items: center;
+}
+
+.contentBox {
+    padding: 80px;
+}
+
+.title {
+    color: var(--white);
+    font-size: 40px;
+    margin-bottom: var(--paddingLG);
+}
+
+.content {
+    color: var(--gray);
+    font-size: 20px;
+    margin-bottom: var(--paddingXL);
+}
