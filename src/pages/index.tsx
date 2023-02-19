@@ -6,6 +6,8 @@ import { NavBar } from "@/components/nav-bar";
 import { Poster } from "@/components/poster";
 import { OurServices } from "@/components/our-services";
 import { ExpertSolution } from "@/components/expert-solution";
+import { Feedback } from "@/components/feedback";
+import { ArticleVsUpdates } from "@/components/article-updates";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,6 +31,8 @@ export default function Home() {
                 <Poster />
                 <OurServices />
                 <ExpertSolution />
+                <Feedback />
+                <ArticleVsUpdates />
             </main>
         </>
     );

@@ -1,0 +1,46 @@
+.container {
+    padding: var(--paddingMD);
+    margin-bottom: 150px;
+    padding-top: 80px;
+    width: 100%;
+}
+
+.headerTitle {
+    font-size: 40px;
+    color: var(--white);
+    margin-bottom: var(--paddingXXL);
+}
+
+.item {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+
+.name {
+    font-size: 40px;
+    color: var(--white);
+    margin-bottom: var(--paddingMD);
+}
+
+.role {
+    font-size: 20px;
+    color: var(--gray);
+    margin-bottom: var(--paddingXL);
+}
+
+.comment {
+    font-size: 20px;
+    color: var(--white);
+    line-height: 30px;
+}
+
+.image {
+    display: inline !important;
+    margin-bottom: var(--paddingXL);
+}
+
+.carousel {
+    max-width: 740px;
+    margin: 0 auto;
+}

@@ -1,0 +1,38 @@
+.container {
+    padding: var(--paddingMD);
+    margin-bottom: 150px;
+    text-align: center;
+}
+.articleList {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--paddingMD);
+    margin-bottom: var(--paddingXXL);
+}
+
+.article {
+    width: calc(100% / 3);
+    text-align: left;
+}
+.headerTitle {
+    font-size: 40px;
+    color: var(--white);
+    margin-bottom: var(--paddingXXL);
+    text-align: left;
+}
+
+.title {
+    font-size: 30px;
+    color: var(--white);
+    margin-top: var(--paddingMD);
+}
+
+.date {
+    font-size: 20px;
+    margin-top: var(--paddingMD);
+    color: var(--gray);
+}
+
+.image {
+    width: 100%;
+}
