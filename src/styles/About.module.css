@@ -31,7 +31,7 @@
 }
 
 .articleSection {
-    margin-top: 100px;
+    margin: 100px 0;
     padding: var(--paddingMD);
     text-align: center;
 }
