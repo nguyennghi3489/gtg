@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.gtg {
+    padding: var(--paddingMD);
+}
+
+.gtgIntroduce {
+    display: flex;
+    gap: var(--paddingXL);
+}
+
+.gtgImage {
+    align-self: flex-start;
+}
+
+.companyProfileButton {
+    margin-top: var(--paddingXXL);
+}
+
+.statistics {
+    background: url("/statistics-background.png");
+    padding: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,20 @@
+.text {
+    font-size: 20px;
+    color: var(--gray);
+    line-height: 30px;
+}
+
+.h1 {
+    font-size: 50px;
+    color: var(--white);
+}
+
+.h2 {
+    font-size: 40px;
+    color: var(--white);
+}
+
+.title {
+    font-size: 30px;
+    color: var(--white);
+}
