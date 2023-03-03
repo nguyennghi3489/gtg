@@ -2,9 +2,11 @@ import Head from "next/head";
 import styles from "@/styles/About.module.css";
 import { NavBar } from "@/components/nav-bar";
 import { GradientContainer } from "@/components/share/gradient-container";
-import { Heading1, Text } from "@/components/share/typography";
+import { Heading1, Heading2, Text, Title } from "@/components/share/typography";
 import { Button } from "antd";
 import { StatisticGroupText } from "@/components/share/statistic-group-text";
+import { ArticleList } from "@/components/article-list";
+import { Footer } from "@/components/footer";
 
 const About = () => {
     return (
@@ -88,6 +90,16 @@ const About = () => {
                     <StatisticGroupText factor="Team Experience" value="234+" />
                     <StatisticGroupText factor="Size" value="57+" />
                 </div>
+                <section className={styles.articleSection}>
+                    <Heading2 className={styles.articleHeading}>
+                        We host a skilled engineering team with expertise for
+                        developing high-performing, innovative, next-gen fintech
+                        platforms and solutions with a combined experience of
+                        100 years
+                    </Heading2>
+                    <ArticleList />
+                </section>
+                <Footer />
             </main>
         </>
     );

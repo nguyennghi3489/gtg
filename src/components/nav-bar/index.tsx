@@ -6,8 +6,12 @@ export const NavBar = () => (
             <img src="/gtg-logo.png" />
         </div>
         <ul className={styles.nav}>
-            <li>HOME</li>
-            <li>ABOUT</li>
+            <li>
+                <a href="/"> HOME</a>
+            </li>
+            <li>
+                <a href="/about">ABOUT</a>
+            </li>
             <li>SERVICES +</li>
             <li>ARTICLES</li>
             <li>CONTACT</li>

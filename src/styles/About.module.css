@@ -29,3 +29,15 @@
     display: flex;
     justify-content: space-between;
 }
+
+.articleSection {
+    margin-top: 100px;
+    padding: var(--paddingMD);
+    text-align: center;
+}
+
+.articleHeading {
+    width: 80%;
+    margin: 0 auto 100px;
+    text-align: center;
+}

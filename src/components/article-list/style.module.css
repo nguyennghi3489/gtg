@@ -1,0 +1,23 @@
+.articleList {
+    display: flex;
+    justify-content: flex-start;
+    gap: var(--paddingMD);
+    flex-wrap: wrap;
+}
+.article {
+    width: 30%;
+    flex-grow: 1;
+    text-align: left;
+    border: 1px solid var(--borderColor);
+    border-radius: 10px;
+    padding: var(--paddingXL) var(--paddingLG);
+}
+
+.role {
+    color: var(--green);
+    margin-top: var(--paddingSM);
+}
+
+.info {
+    margin-top: var(--paddingLG);
+}
