@@ -1,0 +1,34 @@
+.tabBody {
+    max-width: 980px;
+    margin: 0 auto 100px;
+}
+
+.tabControls {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--paddingXXL) 0;
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.tabButton {
+    outline: 0;
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    color: var(--gray);
+    flex: 1;
+    cursor: pointer;
+}
+
+.active {
+    font-size: 40px;
+    color: var(--white);
+}
+
+.tabContent {
+    padding: var(--paddingXXL) 0;
+}
+
+.subTitle {
+    margin: var(--paddingXL) 0 var(--paddingXS);
+}

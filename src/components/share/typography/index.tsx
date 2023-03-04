@@ -21,3 +21,7 @@ export const Heading2: FC<TypographyPros> = ({ children, className }) => {
 export const Title: FC<TypographyPros> = ({ children, className }) => {
     return <h5 className={`${styles.title} ${className}`}>{children}</h5>;
 };
+
+export const SubTitle: FC<TypographyPros> = ({ children, className }) => {
+    return <h6 className={`${styles.subTitle} ${className}`}>{children}</h6>;
+};

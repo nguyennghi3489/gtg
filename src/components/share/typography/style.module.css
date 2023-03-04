@@ -18,3 +18,9 @@
     font-size: 30px;
     color: var(--white);
 }
+
+.subTitle {
+    font-size: 20px;
+    color: var(--white);
+    font-weight: bold;
+}
