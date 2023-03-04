@@ -12,7 +12,9 @@ export const NavBar = () => (
             <li>
                 <a href="/about">ABOUT</a>
             </li>
-            <li>SERVICES +</li>
+            <li>
+                <a href="/services">SERVICES +</a>
+            </li>
             <li>ARTICLES</li>
             <li>CONTACT</li>
         </ul>
